@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  speed.between?(40, 60)
+  speed < 60 && > 40 ? TRUE : FALSE
 end
 
 
